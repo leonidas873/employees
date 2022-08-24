@@ -1,0 +1,85 @@
+.feedback {
+  background-color: rgb(213, 213, 213);
+  max-width: 1200px;
+  padding: 20px;
+  margin: auto;
+  padding-bottom:80px;
+}
+
+.feedback h2 {
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.formWrapper {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(188, 188, 205);
+}
+
+.formWrapper form {
+  display: flex;
+  flex-direction: column;
+}
+.submitBtn {
+  text-align: center;
+}
+.submitBtn button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(93, 17, 150);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submitBtn button:hover {
+  transform: scale(1.1);
+}
+
+.submitBtn button:active {
+  opacity: 0.7;
+}
+
+.submitBtn button:disabled {
+  background-color: rgba(93, 17, 150, 0.5);
+}
+
+.submitBtn button:disabled:hover {
+  transform: scale(1);
+}
+
+/* inputs */
+.inputLable {
+  margin-top: 10px;
+}
+.textInput {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+  font-family: inherit;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+.textInput:focus {
+  background-color: #eff2f8;
+}
+
+.textInputInvalid {
+  border: 1px solid red;
+}
+.error {
+  margin-top: 4px;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: red;
+}

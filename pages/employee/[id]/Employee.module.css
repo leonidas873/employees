@@ -1,0 +1,66 @@
+.main {
+  max-width: 1200px;
+  background-color: rgb(227, 227, 227);
+  padding: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bio {
+  max-width: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  border: 1px solid gray;
+}
+
+.bio div {
+  width: 100%;
+}
+
+.bio div span {
+  font-weight: bolder;
+}
+
+.likeBtn {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(93, 17, 150);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.likeBtn:hover {
+  transform: scale(1.1);
+}
+
+.likeBtn:active {
+  opacity: 0.7;
+}
+
+.likeBtn:disabled {
+  background-color: rgba(93, 17, 150, 0.5);
+}
+
+.likeBtn:disabled:hover {
+  transform: scale(1);
+}
